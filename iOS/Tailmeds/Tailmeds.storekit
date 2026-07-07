@@ -1,0 +1,41 @@
+{
+  "identifier" : "Tailmeds",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "tailmeds_group",
+      "localizations" : [],
+      "name" : "Tailmeds Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "tailmeds_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Trigger correlation view linking symptoms to food/environment tags",
+              "displayName" : "Tailmeds Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "tailmeds_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Tailmeds Pro Monthly",
+          "subscriptionGroupID" : "tailmeds_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
